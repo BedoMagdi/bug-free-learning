@@ -5,8 +5,16 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+     <!-- Header -->
+    <nav class="header">
+      <ul>
+        <li><a href="#colors-container" class="active">Colors</a></li>
+        <li><a href="#fonts-container" class="active">Fonts</a></li>
+        <li><a href="#text-container" class="active">Text Styles</a></li>
+      </ul>
+    </nav>
     <h1>My Style Guide</h1>
-    <div class="container">
+    <div class="container" id="colors-container">
       <h2>Colors</h2>
       <div class="color-container">
         <div class="color-panel IndianRed">
@@ -23,30 +31,30 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="fonts-container">
       <h2>Fonts</h2>
       <div class="font-container">
         <div class="font-panel">
-          <p class="font-label source-code-pro">Source Code Pro</p>
+          <p class="font-label Helvetica">Helvetica</p>
           <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
           <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
           <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
         </div>
         <div class="font-panel">
-          <p class="font-label nunito-sans">Nunito Sans</p>
+          <p class="font-label Times-New-Roman">Times New Roman</p>
           <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
           <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
           <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
         </div>
         <div class="font-panel">
-          <p class="font-label poppins">Poppins</p>
+          <p class="font-label Verdana">Verdana</p>
           <p class="regular poppins">The quick brown fox jumps over the lazy dog.</p>
           <p class="bold poppins">The quick brown fox jumps over the lazy dog.</p>
           <p class="italic poppins">The quick brown fox jumps over the lazy dog.</p>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="text-container">
       <h2>Text Styles</h2>
       <div class="text-container">
         <div class="text-panel">
@@ -54,7 +62,7 @@
           <ul>
             <li>Font-weight: 700 (bold)</li>
             <li>Font-size: 26px</li>
-            <li>Font-family: Nunito Sans</li>
+            <li>Font-family: Helvetica</li>
           </ul>
         </div>
         <div class="text-panel">
@@ -62,7 +70,7 @@
           <ul>
             <li>Font-weight: 500</li>
             <li>Font-size: 18px</li>
-            <li>Font-family: Poppins</li>
+            <li>Font-family: Helvetica</li>
           </ul>
         </div>
         <div class="text-panel">
@@ -70,7 +78,7 @@
           <ul>
             <li>Font-weight: 400 (regular)</li>
             <li>Font-size: 14px</li>
-            <li>Font-family: Poppins</li>
+            <li>Font-family: Verdana</li>
           </ul>
         </div>
       </div>
