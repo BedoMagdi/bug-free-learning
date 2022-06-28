@@ -1,0 +1,34 @@
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+}
+
+.header li {
+    list-style: none;
+    display: inline-block;
+  }
+
+.header li a {
+    color: #333;
+}
+
+a {
+    cursor: pointer;
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.logo {
+    display: inline-flex; 
+}
